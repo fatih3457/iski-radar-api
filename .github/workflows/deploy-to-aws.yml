@@ -43,10 +43,10 @@ jobs:
       - name: Deploy to Elastic Beanstalk
         uses: einaregilsson/beanstalk-deploy@v21
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}      # <-- DÜZELTİLDİ
+          aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }} # <-- DÜZELTİLDİ
           application_name: iski-radar-app
           environment_name: Iski-radar-app-env
           region: eu-north-1
-          version_label: ${{ github.sha }} # Her dağıtıma benzersiz bir etiket veriyoruz.
-          deployment_package: target/iski-radar-api-0.0.1-SNAPSHOT.jar # Yüklenecek .jar dosyasının yolu.
+          version_label: ${{ github.sha }}
+          deployment_package: target/iski-radar-api-0.0.1-SNAPSHOT.jar
