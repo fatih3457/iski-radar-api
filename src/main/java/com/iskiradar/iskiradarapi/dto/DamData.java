@@ -4,28 +4,47 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class DamData {
 
-    // JSON'daki gerçek alan adı: baslikAdi
     @JsonProperty("baslikAdi")
     private String barajAdi;
 
-    // JSON'daki gerçek alan adı: dolulukOrani ve tipi String
     @JsonProperty("dolulukOrani")
     private String dolulukOrani;
 
-    // --- Manuel Getter ve Setter'lar ---
-    public String getBarajAdi() {
-        return barajAdi;
-    }
+    // YENİ EKLENEN ALANLAR
+    @JsonProperty("mevcutSuHacmi")
+    private String mevcutSuHacmi;
 
-    public void setBarajAdi(String barajAdi) {
-        this.barajAdi = barajAdi;
-    }
+    @JsonProperty("biriktirmeHacmi")
+    private String biriktirmeHacmi;
 
-    public String getDolulukOrani() {
-        return dolulukOrani;
-    }
+    @JsonProperty("azamiSuSeviyesi")
+    private String azamiSuSeviyesi;
 
-    public void setDolulukOrani(String dolulukOrani) {
-        this.dolulukOrani = dolulukOrani;
-    }
+    @JsonProperty("verim")
+    private String verim;
+
+    @JsonProperty("kaynakAdi")
+    private String kaynakAdi;
+
+
+    public String getBarajAdi() { return barajAdi; }
+    public void setBarajAdi(String barajAdi) { this.barajAdi = barajAdi; }
+
+    public String getDolulukOrani() { return dolulukOrani; }
+    public void setDolulukOrani(String dolulukOrani) { this.dolulukOrani = dolulukOrani; }
+
+    public String getMevcutSuHacmi() { return mevcutSuHacmi; }
+    public void setMevcutSuHacmi(String mevcutSuHacmi) { this.mevcutSuHacmi = mevcutSuHacmi; }
+
+    public String getBiriktirmeHacmi() { return biriktirmeHacmi; }
+    public void setBiriktirmeHacmi(String biriktirmeHacmi) { this.biriktirmeHacmi = biriktirmeHacmi; }
+
+    public String getAzamiSuSeviyesi() { return azamiSuSeviyesi; }
+    public void setAzamiSuSeviyesi(String azamiSuSeviyesi) { this.azamiSuSeviyesi = azamiSuSeviyesi; }
+
+    public String getVerim() { return verim; }
+    public void setVerim(String verim) { this.verim = verim; }
+
+    public String getKaynakAdi() { return kaynakAdi; }
+    public void setKaynakAdi(String kaynakAdi) { this.kaynakAdi = kaynakAdi; }
 }

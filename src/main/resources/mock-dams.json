@@ -1,0 +1,94 @@
+{
+  "data": [
+    {
+      "azamiSuSeviyesi": "62",
+      "baslikAdi": "Ömerli",
+      "biriktirmeHacmi": "244.54",
+      "dolulukOrani": "41.91",
+      "kaynakAdi": "Omerli",
+      "mevcutSuHacmi": "119.986",
+      "verim": "220"
+    },
+    {
+      "azamiSuSeviyesi": "4.5",
+      "baslikAdi": "Terkos",
+      "biriktirmeHacmi": "195.974",
+      "dolulukOrani": "49.94",
+      "kaynakAdi": "Terkos",
+      "mevcutSuHacmi": "106.923",
+      "verim": "142"
+    },
+    {
+      "azamiSuSeviyesi": "6.3",
+      "baslikAdi": "Büyükçekmece",
+      "biriktirmeHacmi": "129.892",
+      "dolulukOrani": "45.15",
+      "kaynakAdi": "BCekmece",
+      "mevcutSuHacmi": "63.623",
+      "verim": "100"
+    },
+    {
+      "azamiSuSeviyesi": "52",
+      "baslikAdi": "Darlık",
+      "biriktirmeHacmi": "102.463",
+      "dolulukOrani": "56.77",
+      "kaynakAdi": "Darlik",
+      "mevcutSuHacmi": "62.574",
+      "verim": "102"
+    },
+    {
+      "azamiSuSeviyesi": "22.4",
+      "baslikAdi": "Sazlıdere",
+      "biriktirmeHacmi": "88.73",
+      "dolulukOrani": "39.9",
+      "kaynakAdi": "Sazlidere",
+      "mevcutSuHacmi": "37.905",
+      "verim": "55"
+    },
+    {
+      "azamiSuSeviyesi": "28",
+      "baslikAdi": "Pabuçdere",
+      "biriktirmeHacmi": "35.222",
+      "dolulukOrani": "37",
+      "kaynakAdi": "Pabucdere",
+      "mevcutSuHacmi": "15.163",
+      "verim": "60"
+    },
+    {
+      "azamiSuSeviyesi": "26",
+      "baslikAdi": "Alibey",
+      "biriktirmeHacmi": "34.143",
+      "dolulukOrani": "28.08",
+      "kaynakAdi": "Alibey",
+      "mevcutSuHacmi": "11.376",
+      "verim": "36"
+    },
+    {
+      "azamiSuSeviyesi": "28",
+      "baslikAdi": "Kazandere",
+      "biriktirmeHacmi": "21.096",
+      "dolulukOrani": "28.28",
+      "kaynakAdi": "Kazandere",
+      "mevcutSuHacmi": "7.873",
+      "verim": "100"
+    },
+    {
+      "azamiSuSeviyesi": "67.5",
+      "baslikAdi": "Elmalı",
+      "biriktirmeHacmi": "9.6",
+      "dolulukOrani": "63.48",
+      "kaynakAdi": "Elmali",
+      "mevcutSuHacmi": "6.472",
+      "verim": "15"
+    },
+    {
+      "azamiSuSeviyesi": "0",
+      "baslikAdi": "Istrancalar",
+      "biriktirmeHacmi": "6.231",
+      "dolulukOrani": "29.29",
+      "kaynakAdi": "Istrancalar",
+      "mevcutSuHacmi": "1.71",
+      "verim": "75"
+    }
+  ]
+}
